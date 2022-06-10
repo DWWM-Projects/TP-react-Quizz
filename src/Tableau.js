@@ -10,10 +10,12 @@ class Tableau extends React.Component {
                 </div>
     
                 <div className="panelAnswer d-flex flex-column">
-                <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].ansA}</button>
-                <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].ansB}</button>
-                <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].ansC}</button>
-                <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].ansD}</button>
+                    {this.props.quizz[0].guesses.map(guess =>
+                        <button className="btn btn-lg btn-primary text-light rounded my-1">{guess}</button>
+                    )}
+                {/* <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].guess[1]}</button>
+                <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].guess[2]}</button>
+                <button className="btn btn-lg btn-primary text-light rounded my-1">{this.props.quizz[0].guess[3]}</button> */}
                 </div>
             </div>
 
