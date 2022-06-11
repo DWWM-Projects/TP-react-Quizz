@@ -1,0 +1,40 @@
+{
+    "quizzs": [
+        {
+            "id": 1,
+            "step": 1,
+            "question": "En quelle année est mort Bob Marley ?",
+            "guesses": [
+                "1979",
+                "1981",
+                "1983",
+                "1985"
+            ],
+            "answer": "1981"
+        },
+        {
+            "id": 2,
+            "step": 2,
+            "question": "En 2021, quelle âge à fété la série The legend of Zelda ?",
+            "guesses": [
+                "25 ans",
+                "30 ans",
+                "35 ans",
+                "40 ans"
+            ],
+            "answer": "35 ans"
+        },
+        {
+            "id": 3,
+            "step": 3,
+            "question": "Dans Game of Thrones, quelle famille à emblême le loup géant ?",
+            "guesses": [
+                "Les Laanister",
+                "Les Barathéon",
+                "Les Stark",
+                "Les Targaryen"
+            ],
+            "answer": "Les Stark"
+        }   
+    ]
+}
